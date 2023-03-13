@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 60px;
+    height: auto;
+}
+
+.comentarios-container {
+        width: 100%;
+        height: 900px;
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d99d9d8b-0a39-4f7a-b561-b8ea33173646/dek334i-04cf2f41-9ee5-4ff8-91ae-fcce6b303f65.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q5OWQ5ZDhiLTBhMzktNGY3YS1iNTYxLWI4ZWEzMzE3MzY0NlwvZGVrMzM0aS0wNGNmMmY0MS05ZWU1LTRmZjgtOTFhZS1mY2NlNmIzMDNmNjUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fU9GpwKzYmVyE8c7Jzp4vY5MsfM0ach6omtfWnlxwBY);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.comentarios {
+    width: 60%;
+    height: 600px;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 20px;
+}
+
+.space1 {
+    transition: 1s;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+    align-items: center;
+    background-image: url('/Users/arthu/Desktop/Curso Profissão/Projetos/primeiraaap/src/components/assets/Guts background.jpg');
+    background-size: cover;
+}
+
+.space2 {
+    transition: 1s;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+    align-items: center;
+    background-image: url('/Users/arthu/Desktop/Curso Profissão/Projetos/primeiraaap/src/components/assets/griffith background.jpg');
+    background-size: cover;
+}
+
+.space3 {
+    transition: 1s;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+    align-items: center;
+    background-image: url('/Users/arthu/Desktop/Curso Profissão/Projetos/primeiraaap/src/components/assets/casca background.jpg');
+    background-size: cover;
+}
+
+.imagem1 {
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 20%;
+    border: 1px solid transparent;
+}
+
+.imagem2 {
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 20%;
+    border: 1px solid transparent;
+}
+
+.imagem3 {
+    transition: 1s;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 20%;
+    border: 1px solid transparent;
+}
+
+.span-text {
+    transition: 0.8s;
+    color: rgb(233, 219, 219);
+    font-size: 22px;
+    background-color: transparent;
+    text-align: justify;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    margin: 15px 15px 15px 10px;
+}
+
+span:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.cguts {
+    transition: 1s;
+    color: rgb(233, 219, 219);
+    font-size: 26px;
+    background-color: transparent;
+
+    font-family:'Kdam Thmor Pro', sans-serif;
+    margin-left: 60%;
+}
+
+.cguts:hover {
+    color: red;
+}
+
+.cgriffith {
+    transition: 1s;
+    color: rgb(233, 219, 219);
+    font-size: 26px;
+    background-color: transparent;
+
+    font-family:'Kdam Thmor Pro', sans-serif;
+    margin-left: 60%;
+}
+
+.cgriffith:hover {
+    color: rgb(0, 132, 255);
+}
+
+.ccasca {
+    transition: 1s;
+    color: rgb(233, 219, 219);
+    font-size: 26px;
+    background-color: transparent;
+
+    font-family:'Kdam Thmor Pro', sans-serif;
+    margin-left: 60%;
+}
+
+.ccasca:hover {
+    color: rgb(104, 35, 35);
+}
+
+.background1 {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.space1:hover {
+    transform: scale(1.02);
+}
+
+.space2:hover {
+    transform: scale(1.02);
+}
+
+.space3:hover {
+    transform: scale(1.02);
+}
+
+.imagem1:hover {
+    transform: scale(1.02);
+}
+
+.imagem2:hover {
+    transform: scale(1.02);
+}
+
+.imagem3:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+    .comentarios-container {
+        width: 100%;
+        height: 1000px;
+        align-items: start;
+        background-position: center;
+    }
+    .comentarios {
+        grid-template-columns: 1fr;
+        width: 70%;
+        height: 1000px;
+    }
+    .span-text {
+        font-size: 16px;
+    }
+    .space1 {
+        height: 300px;
+        background-position: center;
+    }
+    .space2 {
+        height: 300px;
+        background-position: center;
+    }
+    .space3 {
+        height: 300px;
+        background-position: center;
+    }
+    
+    .cguts {
+        color: transparent;
+    }
+    .cguts:hover {
+        color: transparent;
+    }
+
+    .cgriffith {
+        color: transparent;
+    }
+    .cgriffith:hover {
+        color: transparent;
+    }
+
+    .ccasca {
+        color: transparent;
+    }
+    .ccasca:hover {
+        color: transparent;
+    }
+}
+
+.direitos {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.desenvolvido {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.direitos:hover {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.desenvolvido:hover {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}

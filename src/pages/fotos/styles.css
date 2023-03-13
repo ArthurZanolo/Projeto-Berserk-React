@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 60px;
+    height: auto;
+}
+
+.fotos-container {
+    width: 100%;
+    height: 900px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d99d9d8b-0a39-4f7a-b561-b8ea33173646/dek334i-04cf2f41-9ee5-4ff8-91ae-fcce6b303f65.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q5OWQ5ZDhiLTBhMzktNGY3YS1iNTYxLWI4ZWEzMzE3MzY0NlwvZGVrMzM0aS0wNGNmMmY0MS05ZWU1LTRmZjgtOTFhZS1mY2NlNmIzMDNmNjUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fU9GpwKzYmVyE8c7Jzp4vY5MsfM0ach6omtfWnlxwBY);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat( 3 , 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    background-color: transparent;
+}
+
+.space {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    cursor: pointer;
+    transition: 0.8s;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.foto-1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/3/30/Berserk_The_Golden_Age_Arc_The_Egg_of_the_King.jpg);
+}
+
+.foto-2 {
+    background-image: url(https://occ-0-2186-3211.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRZyFGx-qdx07yAVd3kY5FruGbVXobb3x2NFxYmdrInTlsClc9Woc8-FUEGFNXtLsIbo3ml5Z0RVSo30U22lT6n1z0unCYz2rTTw.jpg?r=fcc);
+}
+
+.foto-3 {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMjkxYTQxOTAtZTE3Mi00YzVkLWI3ODItZjkxYWZmZDJjODY1XkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg);
+}
+
+.foto-4 {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZWIzNzQ3ZDctODYxYi00YjUwLTg1MDgtMDg4Mzc0NWM4ZGY0XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg);
+}
+
+.foto-5 {
+    background-image: url(https://flowgames.gg/wp-content/uploads/2022/11/compare9701.jpg);
+}
+
+.foto-6 {
+    background-image: url(https://i.pinimg.com/originals/14/6e/04/146e04ee5862d4e3ff4508895ef9790b.jpg);
+}
+
+.space:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .fotos-container {
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+    }
+
+    .fotos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .space {
+        height: 300px;
+        background-position: 50% 5%;
+    }
+    .fotos-container {
+        background-position: center;
+    }
+}
